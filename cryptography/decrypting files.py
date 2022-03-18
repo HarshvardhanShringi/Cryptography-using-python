@@ -9,7 +9,7 @@ gp=open('E:\Honey\Projects\Projects.txt','rb')
 enc_data=gp.read()
 
 # Decrypting data and storing it to another variable (dec_data)
-dec_data=k1token.decrypt(cnt)
+dec_data=k1token.decrypt(enc_data)
 
 # Writing dec_data to that file
 gp1=open('E:\Honey\Projects\Projects.txt','wb')
