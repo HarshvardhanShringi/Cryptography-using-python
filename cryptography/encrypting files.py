@@ -13,7 +13,7 @@ g.write(key)
 file=open('E:\Honey\Projects\Projects.txt','rb')
 orig_data=file.read()
 
-#    4. storing encrypted data into a variable
+#    4. storing and encrypting data into a variable
 
 enc_data=ktoken.encrypt(orig_data)
 
